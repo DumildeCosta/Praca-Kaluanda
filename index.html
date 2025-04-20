@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Minha Loja Online Profissional</title>
+    <!-- Favicon -->
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet"/>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"rel="stylesheet"
+    />
+    <!-- Fonte Google -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"rel="stylesheet"/>
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand" href="#">Minha Loja</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <div>
+          <h1>Bem-vindo à Minha Loja Online</h1>
+          <p>
+            Produtos de qualidade com design inovador e atendimento de excelência.
+          </p>
+          <a href="#produtos" class="btn btn-primary btn-lg">
+            Confira nossos produtos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos">
+      <div class="container">
+        <h2 class="text-center">Nossos Produtos</h2>
+        <div class="row mt-5">
+          <!-- Card Produto 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="imagens/produto1.jpg" class="card-img-top" alt="Produto 1" />
+              <div class="card-body">
+                <h5 class="card-title">Produto 1</h5>
+                <p class="card-text">
+                  Descrição breve do produto 1.
+                </p>
+                <a href="#" class="btn btn-primary">Ver detalhes</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="imagens/produto2.jpg" class="card-img-top" alt="Produto 2" />
+              <div class="card-body">
+                <h5 class="card-title">Produto 2</h5>
+                <p class="card-text">
+                  Descrição breve do produto 2.
+                </p>
+                <a href="#" class="btn btn-primary">Ver detalhes</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card Produto 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="imagens/produto3.jpg" class="card-img-top" alt="Produto 3" />
+              <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">
+                  Descrição breve do produto 3.
+                </p>
+                <a href="#" class="btn btn-primary">Ver detalhes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact-section dark-theme">
+      <div class="container">
+        <h2 class="mb-4 text-center">Contato</h2>
+        <div class="row align-items-center">
+          <!-- Redes Sociais -->
+          <div class="col-md-6 social-col text-center text-md-start">
+            <ul class="social-icons list-unstyled d-flex">
+              <li class="me-3">
+                <a
+                  href="https://x.com/costa_dumilde"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Twitter"
+                ><i class="bi bi-twitter"></i></a>
+              </li>
+              <li class="me-3">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100086838957451"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Facebook"
+                ><i class="bi bi-facebook"></i></a>
+              </li>
+              <li class="me-3">
+                <a
+                  href="https://www.instagram.com/pracakaluanda/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram"
+                ><i class="bi bi-instagram"></i></a>
+              </li>
+              <li class="me-3">
+                <a href="#" target="_blank" rel="noopener noreferrer" title="LinkedIn"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Informações -->
+          <div class="col-md-6 info-col d-flex justify-content-end">
+            <ul class="contact-info list-unstyled text-end">
+              <li><strong>Morada:</strong> Bairro Talatona, nº16,</li>
+              <li><strong>Naturalidade:</strong> Luanda, Angola</li>
+              <li><strong>Email:</strong> dumildecosta10@gmail.com</li>
+              <li><strong>Telefone:</strong> +244 947 092 305</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container text-center">
+        <p>&copy; 2025 Minha Loja Online. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Personalizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
