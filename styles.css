@@ -1,4 +1,4 @@
-/* Reinicia configurações gerais */
+/* R configurações gerais */
 * {
   margin: 0;
   padding: 0;
@@ -65,7 +65,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* PRODUTOS SECTION */
+/* Produtos */
 #produtos {
   padding: 60px 0;
 }
@@ -87,7 +87,7 @@ header {
   border-top-right-radius: 8px;
 }
 
-/* CONTATO (Tema Escuro) */
+/* Contacto e tema escuro */
 .contact-section.dark-theme {
   background-color: #121212;
   color: #f5f5f5;
@@ -129,7 +129,7 @@ header {
   }
 }
 
-/* FOOTER */
+/* Rodapé */
 .footer {
   background: #222;
   color: #fff;
